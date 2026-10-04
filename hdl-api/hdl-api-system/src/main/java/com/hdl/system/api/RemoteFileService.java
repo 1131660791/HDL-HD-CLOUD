@@ -14,12 +14,12 @@ import com.hdl.system.api.factory.RemoteFileFallbackFactory;
 
 /**
  * 文件服务
- * 
+ *
  * @author hdl
  */
 @FeignClient(contextId = "remoteFileService", value = ServiceNameConstants.FILE_SERVICE, fallbackFactory = RemoteFileFallbackFactory.class)
-public interface RemoteFileService
-{
+public interface RemoteFileService {
+
     /**
      * 上传文件
      *

@@ -16,8 +16,6 @@
 * 本仓库为hdl-Cloud的Spring Boot 3 的版本，保持同步更新。
 * 后端采用Spring Boot3、Spring Cloud & Alibaba。
 * 注册中心、配置中心选型Nacos，权限认证使用Redis。
-* 流量控制框架选型Sentinel，分布式事务选型Seata。
-* 阿里云优惠券：[点我进入](http://aly.hdl.vip)，腾讯云优惠券：[点我进入](http://txy.hdl.vip)&nbsp;&nbsp;
 
 # 版本分支
 
@@ -25,22 +23,20 @@ hdl-Cloud 后端项目提供 Spring Boot 2.x / 3.x / 4.x 多版本分支的并�
 
 | 名称              | 说明                      | 地址                                                      |
 | :---------------- | :------------------------ | :-------------------------------------------------------- |
-| master 默认分支   | Spring Boot 4.x (JDK 17+、Nacos 3.x) | https://gitee.com/y_project/hdl-Cloud                   |
-| springboot3 分支  | Spring Boot 3.x (JDK 17+、Nacos 3.x) | https://gitee.com/y_project/hdl-Cloud/tree/springboot3  |
-| springboot2 分支  | Spring Boot 2.x (JDK 8+、Nacos 2.x)  | https://gitee.com/y_project/hdl-Cloud/tree/springboot2  |  
+| springboot3 分支  | Spring Boot 3.x (JDK 17+、Nacos 3.x) | https://gitee.com/y_project/ruoyi-Cloud/tree/springboot3  |
 
 hdl-Cloud 前端项目提供 Vue 2.x / 3.x / JavaScript TypeScript 版本均可混用搭配
 
-| 项目名称      | **hdl-Cloud-Vue2** | **hdl-Cloud-Vue3** | **hdl-Cloud-Vue3-TypeScript**   |
-| :---          | :---                 | :---                 | :---                              |
-| **前端框架**  | Vue 2               | Vue 3                | Vue 3                             |
-| **脚本语言**  | JavaScript          | JavaScript           | TypeScript                        |
-| **构建工具**  | Vue CLI             | Vite                 | Vite                              |
-| **UI 组件库** | Element UI          | Element Plus         | Element Plus                      |
-| **状态管理**  | Vuex                | Pinia                | Pinia                             |
-| **路由管理**  | Vue Router 3        | Vue Router 4         | Vue Router 4                      |
-| **核心特点**  | 1. 技术栈经典稳定<br>2. 社区资料丰富<br>3. 当前维护重心已转移 | 1. 现代前端技术栈<br>2. 开发体验与性能更优<br>3. 官方主推的活跃版本 | 1. 类型加持，减少沟通成本<br>2. 开发时有提示，效率更高<br>3. 多人协作企业级开发项目 |
-| **仓库地址**  | [hdl-Cloud-Vue2](https://gitcode.com/yangzongzhuan/hdl-Cloud-Vue2) | [hdl-Cloud-Vue3](https://gitcode.com/yangzongzhuan/hdl-Cloud-Vue3) | [hdl-Cloud-Vue3-TypeScript](https://gitcode.com/yangzongzhuan/hdl-Cloud-Vue3/tree/typescript) |
+| 项目名称      | **hdl-Cloud-Vue2**                                                   | **hdl-Cloud-Vue3** | **hdl-Cloud-Vue3-TypeScript**   |
+| :---          |:---------------------------------------------------------------------| :---                 | :---                              |
+| **前端框架**  | Vue 2                                                                | Vue 3                | Vue 3                             |
+| **脚本语言**  | JavaScript                                                           | JavaScript           | TypeScript                        |
+| **构建工具**  | Vue CLI                                                              | Vite                 | Vite                              |
+| **UI 组件库** | Element UI                                                           | Element Plus         | Element Plus                      |
+| **状态管理**  | Vuex                                                                 | Pinia                | Pinia                             |
+| **路由管理**  | Vue Router 3                                                         | Vue Router 4         | Vue Router 4                      |
+| **核心特点**  | 1. 技术栈经典稳定<br>2. 社区资料丰富<br>3. 当前维护重心已转移                              | 1. 现代前端技术栈<br>2. 开发体验与性能更优<br>3. 官方主推的活跃版本 | 1. 类型加持，减少沟通成本<br>2. 开发时有提示，效率更高<br>3. 多人协作企业级开发项目 |
+| **仓库地址**  | [ruoyi-Cloud-Vue2](https://gitcode.com/yangzongzhuan/ruoyi-Cloud-Vue2) | [ruoyi-Cloud-Vue3](https://gitcode.com/yangzongzhuan/ruoyi-Cloud-Vue3) | [ruoyi-Cloud-Vue3-TypeScript](https://gitcode.com/yangzongzhuan/ruoyi-Cloud-Vue3/tree/typescript) |
 
 ## 系统模块
 
@@ -143,8 +139,3 @@ com.hdl
         <td><img src="https://oscimg.oschina.net/oscnet/up-5e4daac0bb59612c5038448acbcef235e3a.png"/></td>
     </tr>
 </table>
-
-
-## 核动力设计所微服务交流群
-
-QQ群： [![加入QQ群](https://img.shields.io/badge/已满-42799195-blue.svg)](https://jq.qq.com/?_wv=1027&k=yqInfq0S) [![加入QQ群](https://img.shields.io/badge/已满-170157040-blue.svg)](https://jq.qq.com/?_wv=1027&k=Oy1mb3p8) [![加入QQ群](https://img.shields.io/badge/已满-130643120-blue.svg)](https://jq.qq.com/?_wv=1027&k=rvxkJtXK) [![加入QQ群](https://img.shields.io/badge/已满-225920371-blue.svg)](https://jq.qq.com/?_wv=1027&k=0Ck3PvTe) [![加入QQ群](https://img.shields.io/badge/已满-201705537-blue.svg)](https://jq.qq.com/?_wv=1027&k=FnHHP4TT) [![加入QQ群](https://img.shields.io/badge/已满-236543183-blue.svg)](https://jq.qq.com/?_wv=1027&k=qdT1Ojpz) [![加入QQ群](https://img.shields.io/badge/已满-213618602-blue.svg)](https://jq.qq.com/?_wv=1027&k=nw3OiyXs) [![加入QQ群](https://img.shields.io/badge/已满-148794840-blue.svg)](https://jq.qq.com/?_wv=1027&k=kiU5WDls) [![加入QQ群](https://img.shields.io/badge/已满-118752664-blue.svg)](https://jq.qq.com/?_wv=1027&k=MtBy6YfT) [![加入QQ群](https://img.shields.io/badge/已满-101038945-blue.svg)](https://jq.qq.com/?_wv=1027&k=FqImHgH2) [![加入QQ群](https://img.shields.io/badge/已满-128355254-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=G4jZ4EtdT50PhnMBudTnEwgonxkXOscJ&authKey=FkGHYfoTKlGE6wHdKdjH9bVoOgQjtLP9WM%2Fj7pqGY1msoqw9uxDiBo39E2mLgzYg&noverify=0&group_code=128355254) [![加入QQ群](https://img.shields.io/badge/已满-179219821-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=irnwcXhbLOQEv1g-TwGifjNTA_f4wZiA&authKey=4bpzEwhcUY%2FvsPDHvzYn6xfoS%2FtOArvZ%2BGXzfr7O0%2FEqLfkKA%2BuCDXlzHIFg8t93&noverify=0&group_code=179219821) [![加入QQ群](https://img.shields.io/badge/已满-158753145-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=lx1uEdEDuxeM7rUvF3qmlFdqKqdJ5Z-R&authKey=rgyPW9yhhh4IIURKVFa6NgP3qiqH04WAzrJ0trsgkr3pjzm6sKIOGyA58oOjoj%2FJ&noverify=0&group_code=158753145) [![加入QQ群](https://img.shields.io/badge/112869560-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Kuaw0Xdlw2Nlgn6s8h9elzuquHGxGObD&authKey=cSrQcWQ%2BzQZAFFrwxaR%2BbzcumX4WRduZnd1O6JO1dlclQMiu%2BKwxAy8t2JfNp67V&noverify=0&group_code=112869560) 点击按钮入群。

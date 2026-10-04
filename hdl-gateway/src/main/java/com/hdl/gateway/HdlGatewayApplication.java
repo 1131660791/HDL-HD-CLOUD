@@ -13,15 +13,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class HdlGatewayApplication {
     public static void main(String[] args) {
         SpringApplication.run(HdlGatewayApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  核动力设计所网关启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
-                " .-------.       ____     __        \n" +
-                " |  _ _   \\      \\   \\   /  /    \n" +
-                " | ( ' )  |       \\  _. /  '       \n" +
-                " |(_ o _) /        _( )_ .'         \n" +
-                " | (_,_).' __  ___(_ o _)'          \n" +
-                " |  |\\ \\  |  ||   |(_,_)'         \n" +
-                " |  | \\ `'   /|   `-'  /           \n" +
-                " |  |  \\    /  \\      /           \n" +
-                " ''-'   `'-'    `-..-'              ");
+        System.out.println("(♥◠‿◠)ﾉﾞ  核动力设计所网关启动成功   ლ(´ڡ`ლ)ﾞ  \n" + " .-------.       ____     __        \n" + " |  _ _   \\      \\   \\   /  /    \n" + " | ( ' )  |       \\  _. /  '       \n" + " |(_ o _) /        _( )_ .'         \n" + " | (_,_).' __  ___(_ o _)'          \n" + " |  |\\ \\  |  ||   |(_,_)'         \n" + " |  | \\ `'   /|   `-'  /           \n" + " |  |  \\    /  \\      /           \n" + " ''-'   `'-'    `-..-'              ");
     }
 }

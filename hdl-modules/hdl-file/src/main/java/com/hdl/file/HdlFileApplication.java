@@ -1,22 +1,21 @@
-package com.hdl.modules.monitor;
+package com.hdl.file;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import de.codecentric.boot.admin.server.config.EnableAdminServer;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
- * 监控中心
- * 
+ * 文件服务
+ *
  * @author hdl
  */
-@EnableAdminServer
-@SpringBootApplication
-public class hdlMonitorApplication
-{
-    public static void main(String[] args)
-    {
-        SpringApplication.run(hdlMonitorApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  监控中心启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+public class HdlFileApplication {
+
+    public static void main(String[] args) {
+
+        SpringApplication.run(HdlFileApplication.class, args);
+        System.out.println("(♥◠‿◠)ﾉﾞ  文件服务模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +

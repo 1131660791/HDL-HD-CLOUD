@@ -1,21 +1,22 @@
-package com.hdl.file;
+package com.hdl.system;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import com.hdl.common.security.annotation.EnableCustomConfig;
+import com.hdl.common.security.annotation.EnableRyFeignClients;
 
 /**
- * 文件服务
- * 
+ * 系统模块
+ *
  * @author hdl
  */
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-public class hdlFileApplication
-{
-    public static void main(String[] args)
-    {
-        SpringApplication.run(hdlFileApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  文件服务模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+@EnableCustomConfig
+@EnableRyFeignClients
+@SpringBootApplication
+public class HdlSystemApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(HdlSystemApplication.class, args);
+        System.out.println("(♥◠‿◠)ﾉﾞ  系统模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +

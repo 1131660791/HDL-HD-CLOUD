@@ -1,24 +1,23 @@
-package com.hdl.system;
+package com.hdl.job;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.hdl.common.security.annotation.EnableCustomConfig;
 import com.hdl.common.security.annotation.EnableRyFeignClients;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 系统模块
- * 
+ * 定时任务
+ *
  * @author hdl
  */
 @EnableCustomConfig
 @EnableRyFeignClients
 @SpringBootApplication
-public class hdlSystemApplication
-{
-    public static void main(String[] args)
-    {
-        SpringApplication.run(hdlSystemApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  系统模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+public class HdlJobApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(HdlJobApplication.class, args);
+        System.out.println("(♥◠‿◠)ﾉﾞ  定时任务模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +

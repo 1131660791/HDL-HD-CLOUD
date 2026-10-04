@@ -1,24 +1,21 @@
-package com.hdl.job;
+package com.hdl.modules.monitor;
 
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.hdl.common.security.annotation.EnableCustomConfig;
-import com.hdl.common.security.annotation.EnableRyFeignClients;
 
 /**
- * 定时任务
- * 
+ * 监控中心
+ *
  * @author hdl
  */
-@EnableCustomConfig
-@EnableRyFeignClients   
+@EnableAdminServer
 @SpringBootApplication
-public class hdlJobApplication
-{
-    public static void main(String[] args)
-    {
-        SpringApplication.run(hdlJobApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  定时任务模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+public class HdlMonitorApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(HdlMonitorApplication.class, args);
+        System.out.println("(♥◠‿◠)ﾉﾞ  监控中心启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +
@@ -29,4 +26,5 @@ public class hdlJobApplication
                 " |  |  \\    /  \\      /           \n" +
                 " ''-'   `'-'    `-..-'              ");
     }
+
 }
