@@ -7,9 +7,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.hdl.common.core.annotation.Excel;
 #if($table.crud || $table.sub)
-import com.hdl.common.core.web.domain.BaseEntity;
 #elseif($table.tree)
-import com.hdl.common.core.web.domain.TreeEntity;
 #end
 
 /**

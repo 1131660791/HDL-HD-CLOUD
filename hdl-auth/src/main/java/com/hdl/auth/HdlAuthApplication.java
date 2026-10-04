@@ -1,21 +1,21 @@
-package com.hdl.gateway;
+package com.hdl.auth;
 
+import com.hdl.common.security.annotation.EnableRyFeignClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
- * 网关启动程序
- * 
+ * 认证授权中心
+ *
  * @author hdl
  */
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-public class hdlGatewayApplication
-{
-    public static void main(String[] args)
-    {
-        SpringApplication.run(hdlGatewayApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  核动力设计所网关启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+@EnableRyFeignClients
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+public class HdlAuthApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(HdlAuthApplication.class, args);
+        System.out.println("(♥◠‿◠)ﾉﾞ  认证授权中心启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +
