@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.hdl</groupId>
+        <artifactId>hdl-common</artifactId>
+        <version>3.6.8</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <artifactId>hdl-common-security</artifactId>
+
+    <description>
+        hdl-common-security安全模块
+    </description>
+
+    <dependencies>
+
+        <!-- Spring Web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+
+        <!-- hdl Api System -->
+        <dependency>
+            <groupId>com.hdl</groupId>
+            <artifactId>hdl-api-system</artifactId>
+        </dependency>
+
+        <!-- hdl Common Redis-->
+        <dependency>
+            <groupId>com.hdl</groupId>
+            <artifactId>hdl-common-redis</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

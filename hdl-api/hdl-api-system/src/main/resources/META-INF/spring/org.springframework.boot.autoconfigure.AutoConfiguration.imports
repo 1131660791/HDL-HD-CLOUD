@@ -1,0 +1,4 @@
+com.hdl.system.api.factory.RemoteUserFallbackFactory
+com.hdl.system.api.factory.RemoteLogFallbackFactory
+com.hdl.system.api.factory.RemoteFileFallbackFactory
+com.hdl.system.api.config.RemoteFileAutoConfiguration
